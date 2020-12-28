@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Project 1</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body>
+	<!-- head start -->
+	<section class="head">
+		<div class="row">
+			<div class="col-md-10">
+				<a href=""> 
+					<img src="img/head/1.png">
+				</a>
+			</div>
+			<div class="col-md-2 button">
+				<button type="button" onclick="alert('How can i help u')">Buy now</button>
+			</div>
+		</div>
+	</section>
+	<!-- head end -->
+	<!-- top start -->
+	<section id="top">
+		<div class="row">
+			<div class="image">
+				<a href=""><img src="img/top/logo2.png"></a>
+			</div>
+			<div class="div1 row">
+				<i class="fas fa-map-marker-alt"></i>
+				<div class="text">
+				<h5>New York</h5>
+				<p>New york City, 1478</p>
+			</div>
+			<div class=" div2 row">
+				<i class="far fa-envelope"></i>
+				<div class="text">
+				<h5>bizco21@gmail.com</h5>
+				<p>Office Hour: 10:00am - 5:00pm</p>
+				</div>
+			<div class="button-1">
+				<button type="button" onclick="alert('How can i help u')">
+					<b>
+						CONTUCT US
+					</b>
+				</button>
+			</div>
+		</div>
+	</section>
+	<!-- top end -->
+	<!-- Menubar start -->
+	<section id="container">
+		<div id="navbar">
+			  <a class="active" href="javascript:void(0)">Home
+			  	</a>
+			  <a href="javascript:void(0)">Services</a>
+			  <a href="javascript:void(0)">Project</a>
+			  <a href="javascript:void(0)">Page</a>
+			  <a href="javascript:void(0)">News</a>
+			  <a href="javascript:void(0)">Contact us</a>
+			  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+				  <form class="form-inline" action="/action_page.php">
+				    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+				    <button class="btn btn-success" type="submit"><i class="fa fa-search"></i></button>
+				  </form>
+			  </nav>
+		</div>
+		<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+	</section>
+	<!-- navber end -->
+<!-- Slider Start -->
+	<section id="slider">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img  src="img/slide/slide-4.jpg" alt="First slide">
+		       <div class="carousel-caption d-none d-md-block">
+		       <h1>Provide Bast <br>Fainancial Service!!</h1>
+    			<p>We have experience over 12 years in providing business solution with our top<br> rate exparts & advance care with love.</p>
+    			<div class="row">
+		    				<div class="button-slide-1">
+							<button type="button" onclick="alert('How can i help u')"><b>Read More</b></button>
+						</div>
+						<div class="button-slide">
+							<button type="button" onclick="alert('How can i help u')"><b>See Services</b></button>
+						</div>
+    				</div>
+    			</div>
+		    </div>
+		    <div class="carousel-item">
+		      <img  src="img/slide/slide-5.jpg" alt="Second slide">
+		       <div class="carousel-caption d-none d-md-block">
+		       <h1>Provide Bast <br>Fainancial Service!!</h1>
+    			<p>We have experience over 12 years in providing business solution with our top<br> rate exparts & advance care with love.</p>
+	    			<div class="row">
+		    				<div class="button-slide-1">
+							<button type="button" onclick="alert('How can i help u')"><b>Read More</b></button>
+						</div>
+						<div class="button-slide">
+							<button type="button" onclick="alert('How can i help u')"><b>See Services</b></button>
+						</div>
+    				</div>
+    			</div>
+		    </div>
+		    <div class="carousel-item">
+		      <img  src="img/slide/slide-6.jpg" alt="Third slide">
+		       <div class="carousel-caption d-none d-md-block">
+		       <h1>Provide Bast <br>Fainancial Service!!</h1>
+    			<p>We have experience over 12 years in providing business solution with our top<br> rate exparts & advance care with love.</p>
+    			<div class="row">
+		    				<div class="button-slide-1">
+							<button type="button" onclick="alert('How can i help u')"><b>Read More</b></button>
+						</div>
+						<div class="button-slide">
+							<button type="button" onclick="alert('How can i help u')"><b>See Services</b></button>
+						</div>
+    				</div>
+    			</div>
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</section>
+	<!-- Slider End -->
+		<!-- Offer Start -->
+	<section class="offer">
+		<div class="heading">
+			<h6>WHAT WE OFFER</h6>
+			<b><p>Providing Best Financial Service to Our<br>
+			Customer is Our Main Goal</p></b>
+		</div>
+		<div class="cad">
+			<div class="container">
+				<div class="row">
+					<div class="hed-1">
+						<div class="single-service">
+							<i class="icon flaticon-sheet"></i>
+						</div>
+							<a href=""><h4>Financial Planing</h4></a>
+							<p>There are many variations passage lore <br>available jak large have suffered than alteration<br> seeker lorem.</p>
+					</div>
+					<div class="hed-2">
+						<div class="single-service">
+							<i class="icon flaticon-technology"></i>
+						</div>
+							<a href=""><h4>Investment Planing</h4></a>
+							<p>There are many variations passage lore<br> available jak large have suffered than alteration<br> seeker lorem.</p>
+					</div>
+					<div class="hed-3">
+						<div class="single-service">
+							<i class="icon flaticon-umbrella"></i>
+						</div>
+							<a href=""><h4>Insurance Polices</h4></a>
+							<p>There are many variations passage lore<br> available jak large have suffered than alteration<br> seeker lorem.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- offer End -->
+	<!-- Line Start -->
+	<section class="line">
+		<div class="provie">
+			<h6>WE PROVIE SERVICE SINCE 1985!!</h6>
+			<hr>
+		</div>
+	</section>
+	<!-- Line End -->
+	<!-- About Start -->
+	<section class="about">
+		<div class="container">
+			<div class="row">
+				<div class="img">
+					<img src="img/about/2.jpg">
+				</div>
+				<div class="text">
+					<h3>
+						Helping & providing
+						 <br> 
+						The 
+						<span class="f-s-color"> best services </span>
+						to our client
+					</h3>
+						<p>Lorem ipsum dolor sit amet, vix an natum labitur eleifend, mel amet a laoreet
+						<br> menandri. Ei justo complectitur duo. Ei mundi solet ut soletu mel possit quo.
+						<br>
+						Sea cu justo laudem.</p>
+					<div class="profile">
+						<div class="row">
+							<div class="photo">
+								<img src="img/about/3.jpg">
+							</div>
+							<div class="name">
+								<h5>Jhone Michale</h5>
+								<p>CEO & Founder of Bizco</p>
+							</div>
+							<div class="sign">
+								<img src="img/about/sign (1).jpg">
+							</div>
+						</div>
+					</div>
+					<div class="end-butn">
+						<button type="button" onclick="alert('How can i help u')">
+							<u>Learn More About Us >></u>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="number">
+				<div class="row">
+					<div class="rank">
+						<h1>200+</h1>
+						<h6>Certified Engineer</h6>
+					</div>
+					<div class="rank-1">
+						<h1>1300+</h1>
+						<h6>Verified Happy Clien</h6>
+					</div>
+					<div class="rank-2">
+						<h1>150+</h1>
+						<h6>Time Award Winner</h6>
+					</div>
+					<div class="rank-3">
+						<h1>280+</h1>
+						<h6>Total project Running</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+		<!-- About End -->
+		<!-- Service Start -->
+
+	<section class="service">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 text">
+					<h1>Our Service</h1>
+					<p>We provide all kind of financial service with expert advisor</p>
+				</div>
+				<div class="left-btn">
+					<button type="button" onclick="alert('How can i help u')">
+						See all Service
+					</button>
+				</div>
+			</div>
+			<div class="service-table">
+				<div class="row">
+					<div class="service-cade-1">
+						<i class="fa fa-umbrella">
+							
+						</i>
+						<a href=""><h4>Financial Planing</h4></a>
+						<p>
+							There are many variat passage<br>
+							lore available jakar large have <br>
+							suffered than seeker
+						</p>
+						<button type="button" onclick="alert('How can i help u')">
+						Lern More>
+						</button>
+
+					</div>
+					<div class="service-cade-2">
+						<i class='fas fa-briefcase-medical'>
+							
+						</i>
+						<a href=""><h4>Investment Plan</h4></a>
+						<p>
+							There are many variat passage<br>
+							lore available jakar large have <br>
+							suffered than seeker
+						</p>
+						<button type="button" onclick="alert('How can i help u')">
+						Lern More>
+						</button>
+
+					</div>
+					<div class="service-cade-3">
+						<i class="fa fa-umbrella" >
+							
+						</i>
+						<a href=""><h4>Insurance Policy</h4></a>
+						<p>
+							There are many variat passage<br>
+							lore available jakar large have <br>
+							suffered than seeker
+						</p>
+						<button type="button" onclick="alert('How can i help u')">
+						Lern More>
+						</button>
+
+					</div>
+					<div class="service-cade-4">
+						<i class='fas fa-briefcase-medical'>
+							
+						</i>
+						<a href=""><h4>Free Consulting</h4></a>
+						<p>
+							There are many variat passage<br>
+							lore available jakar large have <br>
+							suffered than seeker
+						</p>
+						<button type="button" onclick="alert('How can i help u')">
+						Lern More>
+						</button>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Service End -->
+
+	<!-- Our Project One Start -->
+	<section class="project">
+		<div id="text">
+			<h2>Recent Projects</h2>
+			<p>You will find all our recent project in this gallery slider with more functionality</p>
+		</div>
+		<div class="project-slide">
+			    <!-- #region Jssor Slider Begin -->
+				    <!-- Generator: Jssor Slider Composer -->
+				    <!-- Source: https://www.jssor.com/demos/scrolling-logo-thumbnail-slider.slider/=edit -->
+				    <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
+				    <script type="text/javascript">
+				        window.jssor_1_slider_init = function() {
+
+				            var jssor_1_options = {
+				              $AutoPlay: 1,
+				              $Idle: 0,
+				              $SlideDuration: 5000,
+				              $SlideEasing: $Jease$.$Linear,
+				              $PauseOnHover: 4,
+				              $SlideWidth: 140,
+				              $Align: 0
+				            };
+
+				            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+				            /*#region responsive code begin*/
+
+				            var MAX_WIDTH = 1500;
+
+				            function ScaleSlider() {
+				                var containerElement = jssor_1_slider.$Elmt.parentNode;
+				                var containerWidth = containerElement.clientWidth;
+
+				                if (containerWidth) {
+
+				                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+				                    jssor_1_slider.$ScaleWidth(expectedWidth);
+				                }
+				                else {
+				                    window.setTimeout(ScaleSlider, 30);
+				                }
+				            }
+
+				            ScaleSlider();
+
+				            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+				            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+				            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+				            /*#endregion responsive code end*/
+				        };
+				    </script>
+
+				    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:480px;height:400px;overflow:hidden;visibility:hidden;">
+				        <!-- Loading Screen -->
+				        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:1500px;height:400px;text-align:center;background-color:rgba(0,0,0,0.7);">
+				            
+				        </div>
+				        <div data-u="slides" style="cursor:default;position:relative;top:50px;left:0px;width:1280px;height:100px;overflow:hidden;">
+				            <div>
+				                <img data-u="image" src="img/slider/12.jpg" />
+				            </div>
+				            <div>
+				                <img data-u="image" src="img/slider/13.jpg" />
+				            </div>
+				            <div>
+				                <img data-u="image" src="img/slider/14.jpg" />
+				            </div>
+				            <div>
+				                <img data-u="image" src="img/slider/15.jpg" />
+				            </div>
+				            <div>
+				                <img data-u="image" src="img/slider/12.jpg" />
+				            </div>
+				            <div>
+				                <img data-u="image" src="img/slider/13.jpg" />
+				            </div>
+				            <div>
+				                <img data-u="image" src="img/slider/14.jpg" />
+				            </div>
+				            <div>
+				                <img data-u="image" src="img/slider/15.jpg" />
+				            </div>
+				            <div>
+				                <img data-u="image" src="img/slider/12.jpg" />
+				            </div>
+				            <div>
+				                <img data-u="image" src="img/slider/13.jpg" />
+				            </div>
+				            <div>
+				                <img data-u="image" src="img/slider/14.jpg" />
+				            </div>
+				            <div>
+				                <img data-u="image" src="img/slider/15.jpg" />
+				            </div>
+				        </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">web design</a>
+				    </div>
+				    <script type="text/javascript">jssor_1_slider_init();
+				    </script>
+				    <!-- #endregion Jssor Slider End -->
+		</div>
+		<div class="slide-end-text">
+			<div class="row">
+				<div class="col-md-9 pragraph">
+					<h3>We provide all kind of business & finance releted services</h3>
+				</div>
+				<div class="col-md-3 pragraph-buttn">
+					<button type="button" onclick="alert('How can i help u')">
+					 GO TO GALLERY
+					</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+			<!-- Our Project One End -->
+			<!-- Membership Start		 -->
+	<section class="membership">
+		<div class="container">
+			<div class="top-hading">
+				<h1>Membership</h1>
+				<p>We have all kind of pricing option for our customer needs</p>
+			</div>
+			<div class="membership-table">
+				<div class="row">
+					<div class="membership-table-body-1">
+						<h5>SMALL</h5>
+						<ul>
+							<li>
+								<i class="fa fa-times" aria-hidden="true"></i>
+							</li>
+							<li>
+								A set of 130 elements,
+								<br>
+								perfectly fitting each othe
+
+							</li>
+							<li>
+								<i class="fa fa-times" aria-hidden="true"></i>
+							</li>
+							<li>
+								Click, drag, resize,
+								<br>
+								adapt, combine, just like that
+							</li>
+							<li>
+								<i class="fa fa-times" aria-hidden="true"></i>
+							</li>
+							<li>
+								An excellent way of preparing a
+								<br>
+								project’s wireframe
+							</li>
+						</ul>
+						<strong>50$
+							<span>Per
+							<br>
+								Month
+							</span>
+						</strong>
+						<div class="BTN">
+							<a href="" class="button-1">
+								BUY NOW
+							</a>
+						</div>
+					</div>
+					<div class="membership-table-body-2">
+						<h5>MEDIUM</h5>
+						<ul>
+							<li>
+								<i class="fa fa-check" aria-hidden="true">
+								</i>
+							</li>
+							<li>
+								A set of 130 elements,
+								<br>
+								perfectly fitting each othe
+							</li>
+							<li>
+								<i class="fa fa-times" aria-hidden="true">
+								</i>
+							</li>
+							<li>
+								Click, drag, resize,
+								<br>
+								adapt, combine, just like that.
+							</li>
+							<li>
+								<i class="fa fa-times" aria-hidden="true">
+								</i>
+							</li>
+							<li>
+								An excellent way of preparing a
+								<br>
+								project’s wireframe
+							</li>
+						</ul>
+						<strong>90$
+							<span>Per
+							<br>
+								Month
+							</span>
+						</strong>
+						<div class="BTN">
+							<a href="" class="button-2">
+								BUY NOW
+							</a>
+						</div>
+					</div>
+					<div class="membership-table-body-3">
+						<h5>PROFESSIONAL</h5>
+						<ul>
+							<li>
+								<i class="fa fa-check" aria-hidden="true">
+								</i>
+							</li>
+							<li>
+								A set of 130 elements,
+								<br>
+								perfectly fitting each othe
+							</li>
+							<li>
+								<i class="fa fa-check" aria-hidden="true">
+								</i>
+							</li>
+							<li>
+								Click, drag, resize,
+								<br>
+								adapt, combine, just like that.
+							</li>
+							<li>
+								<i class="fa fa-check" aria-hidden="true">
+								</i>
+							</li>
+							<li>
+								An excellent way of preparing a
+								<br>
+								project’s wireframe
+							</li>
+						</ul>
+						<strong>140$
+							<span>Per
+							<br>
+								Month
+							</span>
+						</strong>
+						<div class="BTN">
+							<a href="" class="button-3">
+								BUY NOW
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Membership End -->
+	<!-- Tem member slaider Start -->
+	<section class="fainan-theme">
+		<div class="client-slide">
+			<div class="opacity">
+				<div class="container">
+					<div class="title text-center">
+						<h6>WHAT WE OFFER</h6>
+						<h2>What Our 
+							<span class="f-s-color"> Customers
+							</span>
+							 Are Saying!!
+						</h2>
+					</div>
+						<div class="slid">
+							<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+							  <div class="carousel-inner">
+							    <div class="carousel-item active">
+							        <img src="img/tem-slaid/1.png" class="d-block w-100" alt="...">
+							    </div>
+							    <div class="carousel-item">
+							      <img src="img/tem-slaid/2.png" class="d-block w-100" alt="...">
+							    </div>
+							    <div class="carousel-item">
+							      <img src="img/tem-slaid/3.png" class="d-block w-100" alt="...">
+							    </div>
+							  </div>
+							</div>
+						</div>
+						<div id="button">
+							<button type="button" onclick="alert('How can i help u')">
+							MORE TESTIMONIALS
+							</button>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+				<!-- Tem member slaider End -->
+				<!-- NEWS START -->
+	<section class="news">
+		<div class="container">
+			<h1>Latest News</h1>
+			<div class="row align-center">
+				<div class="table-1">
+					<img src="img/news/18.jpg">
+					<div class="post">
+						<span>13 Feb, 2020 / Business</span>
+						<h5><a href="">How to become a best sales
+						<br> marketer in a year</a></h5>
+						<p>Lorem ipsum dolor sit amet qu modo expeten dis <br>reformidans,appetere sententiae.</p>
+						<div id="button">
+							<button type="button" onclick="alert('How can i help u')">
+							Learn More
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="table-2">
+					<img src="img/news/19.jpg">
+					<div class="post-1">
+						<span>13 Feb, 2020 / Business</span>
+						<h5><a href="">How to become a best sales
+						<br> marketer in a year</a></h5>
+						<p>Lorem ipsum dolor sit amet qu modo expeten dis <br>reformidans,appetere sententiae.</p>
+						<div id="button">
+							<button type="button" onclick="alert('How can i help u')">
+							Learn More
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="list">
+					<div class="line-news">
+						<div class="row">
+							<div class="img">
+								<img src="img/news/20.jpg">
+							</div>
+							<div class="text">
+								<a href="">
+									<h5>
+										How business proffesioanl <br> work for client
+									</h5>
+								</a>
+								<p>13 Feb, 2016  /  Business</p>
+							</div>
+						</div>
+					</div>
+					<div class="line-news">
+						<div class="row">
+							<div class="img">
+								<img src="img/news/21.jpg">
+							</div>
+							<div class="text">
+								<a href="">
+									<h5>
+										How business proffesioanl <br> work for client
+									</h5>
+								</a>
+								<p>13 Feb, 2016  /  Business</p>
+							</div>
+						</div>
+					</div>
+					<div class="line-news">
+						<div class="row">
+							<div class="img">
+								<img src="img/news/20.jpg">
+							</div>
+							<div class="text">
+								<a href="">
+									<h5>
+										How business proffesioanl <br> work for client
+									</h5>
+								</a>
+								<p>13 Feb, 2016  /  Business</p>
+							</div>
+						</div>
+					</div>
+					<div class="line-news">
+						<div class="row">
+							<div class="img">
+								<img src="img/news/22.jpg">
+							</div>
+							<div class="text">
+								<a href="">
+									<h5>
+										How business proffesioanl <br> work for client
+									</h5>
+								</a>
+								<p>13 Feb, 2016  /  Business</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+			<!-- NEWS END -->
+			<!-- MAPE START -->
+	<section class="maps">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.8522970917543!2d90.39868585046129!3d23.784997484496547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c794215756d9%3A0xaa29a6e36d8ac07!2sFinPro%20Consultants%20Limited!5e1!3m2!1sen!2sbd!4v1604785095806!5m2!1sen!2sbd" width="100%" height="600px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</section>
+	<!-- MAP end -->
+	<!-- Partner Logo Start -->
+	<section class="Partner">
+		<div class="">
+			<div class="row">
+				<div class="image-logo">
+					<img src="img/cad-slaider/p5.png">
+				</div>
+				<div class="image-logo">
+					<img src="img/cad-slaider/p6.png">
+				</div>
+				<div class="image-logo">
+					<img src="img/cad-slaider/p7.png">
+				</div>
+				<div class="image-logo">
+					<img src="img/cad-slaider/p8.png">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Partner Logo End -->
+	<!-- Footer Head Start -->
+	<section class="fooder">
+		
+			<div class="row">
+
+				<div class="col-md-9 top">
+					<h3>Have any question or need any
+						<span>business consultation?</span>
+					</h3>
+				</div>
+				<div class="col-md-3 bttn">
+					<div class="button">
+					<button type="button" onclick="alert('How can i help u')">
+					CONTACT US NOW!!
+					</button>
+				</div>
+				
+			</div>
+		<hr>
+	</section>
+	<!-- Footer head end -->
+	<!-- Footer Medal Start -->
+	<section class="fooder-medel">
+		<div class="row">
+			<div class="hadding-1">
+				<img src="img/fooder/logo3.png">
+				<p>Lorem ipsum dolor amet<br>
+				 natum latinecopiosa at quo,<br>
+				 suas labore saperet has<br>
+				 there any quote for write <br>
+				 lorem percitlatineu <br>
+				suas dummy.</p>
+			</div>
+			<div class="hadding-1">
+				<div class="text-1">
+					<h6>INFORMATION</h6>
+					<div>
+						<a href="">Home</a>
+					</div>
+					<div>
+						<a href="">Customer</a>
+					</div>
+					<div>
+						<a href="">Service</a>
+					</div>
+					<div>
+						<a href="">Collection</a>
+					</div>
+					<div>
+						<a href="">Blog</a>
+					</div>
+				</div>
+			</div>
+			<div class="hadding-1">
+				<div class="text-1">
+					<h6>LATEST NEWS</h6>
+					<div cllass="sub-text">
+						<h5>
+							<a href="">
+								How can be successfull in
+								<br> market place..
+							</a>
+						</h5>
+						<p>13 Feb, 2020 / Business</p>
+					</div>
+					<div cllass="sub-text">
+						<h5>
+							<a href="">
+							How can be successfull in
+							<br> market place..
+						</a></h5>
+						<p>13 Feb, 2020 / Business</p>
+					</div>
+				</div>
+			</div>
+			<div class="hadding-1">
+				<div class=" text-1">
+					<h6>SUBSCRIBE US</h6>
+					<p>This sounded a very good reason, and Alice was <br>quite pleased to know it.</p>
+				</div>
+				<div class="serch-submit">
+					<form>
+						<input  type="e-mail" placeholder="Enter your e-mail">
+						<button type="submit">
+					 		<i class="fas fa-angle-right"></i>
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer Medel End -->
+	<!-- Footer Button Start -->
+	<section class="fooder-button">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<div class="row">
+						<p>Copyright 
+						<i class="fa fa-copyright" aria-hidden="true">
+							
+						</i> 
+						2020 Consulting Theme. All rights reserved
+						 </p><a href=""> SHAGOR ROBIDAS</a>
+					</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="row">
+						<div class="icon-footer">
+							<a href="">
+								<i class="fab fa-facebook" style="font-size: 20px;"></i>
+							</a>
+						</div>
+						<div class="icon-footer">
+							<a href="">
+								<i class="fab fa-dribbble-square" style="font-size: 20px;"></i>
+							</a>
+						</div>
+						<div class="icon-footer">
+							<a href="">
+								<i class="fab fa-linkedin-in" style="font-size: 20px;"></i>
+							</a>
+						</div>
+						<div class="icon-footer">
+							<a href="">
+								<i class="fab fa-twitter" style="font-size: 20px;"></i>
+							</a>
+						</div>
+						<div class="icon-footer">
+							<a href="">
+								<i class="fab fa-vimeo-v" style="font-size: 20px;"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+        
+    
+
+
+
+	
+
+
+
+
+
+	<!-- jQuery library -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script type="text/javascript" src="js/jssor.slider-28.0.0.min.js"></script>
+	
+
+
+	
+</body>
+</html>
